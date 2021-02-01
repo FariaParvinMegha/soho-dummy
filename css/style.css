@@ -186,9 +186,6 @@ body {
 /* =======================================
         flickity
 ======================================= */
-#flickity .flickity-viewport {
-    padding-top: 15px;
-}
 
 #flickity .slider-cell {
     width: 50%;

@@ -7,6 +7,10 @@
         display: none;
     }
 
+    #flickity .flickity-viewport {
+        padding-top: 19px;
+    }
+
 }
 
 /* medium screen */
@@ -88,6 +92,9 @@
         font-weight: 300;
     }
 
+    #flickity .flickity-viewport {
+        padding-top: 15px;
+    }
 }
 
 /* small screen */
