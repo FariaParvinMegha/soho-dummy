@@ -131,10 +131,11 @@ body {
 
 #header-section .bg-video {
     position: relative;
+    top: 0%;
+    left: 0%;
     max-width: 100%;
     background-position: bottom;
-    height: 103vh;
-    overflow: hidden;
+    height: 100vh;
 }
 
 #header-section .bg-video-content {
@@ -185,6 +186,9 @@ body {
 /* =======================================
         flickity
 ======================================= */
+#flickity .flickity-viewport {
+    padding-top: 15px;
+}
 
 #flickity .slider-cell {
     width: 50%;
@@ -263,7 +267,7 @@ body {
 
 
 /* =======================================
-        about
+        about & contact
 ======================================= */
 #about .content,
 #work .content {
