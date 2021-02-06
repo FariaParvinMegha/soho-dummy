@@ -38,7 +38,7 @@ $(function () {
 
     // fade in back2top
     var MyScene = new ScrollMagic.Scene({
-        triggerElement: '#flickity',
+        triggerElement: '#about',
         triggerHook: 0.8
     })
         .setClassToggle('#back2top', 'fade-in')
