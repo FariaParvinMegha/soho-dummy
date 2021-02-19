@@ -7,7 +7,8 @@
         display: none;
     }
 
-    #flickity .flickity-viewport {
+    #flickity,
+    #projects-flickity {
         padding-top: 19px;
     }
 
@@ -92,7 +93,8 @@
         font-weight: 300;
     }
 
-    #flickity .flickity-viewport {
+    #flickity,
+    #projects-flickity {
         padding-top: 15px;
     }
 }
@@ -117,6 +119,7 @@
         font-size: 3rem;
     }
 
+    #projects-flickity .slider-cell,
     #flickity .slider-cell {
         width: 100%;
     }
