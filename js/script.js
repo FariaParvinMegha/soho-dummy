@@ -38,19 +38,43 @@ $(function () {
 
     // fade in back2top
     var MyScene = new ScrollMagic.Scene({
-        triggerElement: '#about',
+        triggerElement: '#flickity',
         triggerHook: 0.8
     })
         .setClassToggle('#back2top', 'fade-in')
         .addTo(controller);
 
+
+    var MyScene = new ScrollMagic.Scene({
+        triggerElement: '#about',
+        triggerHook: 0.8
+    })
+        .setClassToggle('#back2top-1', 'fade-in')
+        .addTo(controller);
+
+
+    var MyScene = new ScrollMagic.Scene({
+        triggerElement: '#trigger',
+        triggerHook: 0.8
+    })
+        .setClassToggle('#back2top-2', 'fade-in')
+        .addTo(controller);
+
+
+    // var MyScene = new ScrollMagic.Scene({
+    //     triggerElement: '#blog-main',
+    //     triggerHook: 0.8
+    // })
+    //     .setClassToggle('#back2top-3', 'fade-in')
+    //     .addTo(controller);
+
+
     //show mobile nav
-    $('#mobile-nav-open-btn').click(function(){
+    $('#mobile-nav-open-btn').click(function () {
         $('#mobile-nav').css("height", "100%");
     });
     //hide mobile nav
-    $('#mobile-nav-close-btn, #mobile-nav a').click(function(){
+    $('#mobile-nav-close-btn, #mobile-nav a').click(function () {
         $('#mobile-nav').css("height", "0");
     });
-
 });
